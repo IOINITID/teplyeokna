@@ -59,3 +59,11 @@ body {
   /* line-height: 30px; */
   /* letter-spacing: 0.45px; */
 }
+
+.block-three .item {
+  margin-bottom: 30px;
+}
+
+.block-three .item img {
+  width: 100%;
+}
