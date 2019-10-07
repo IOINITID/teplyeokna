@@ -38,7 +38,7 @@
     </div>
 
     <div class="header__bottom">
-      <div class="container-fluid">
+      <div class="container-fluid header__background">
         <div class="container">
           <div class="row">
             <div class="col-xl-9">
@@ -71,7 +71,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 header__order">
               <a href="#">Заказать звонок<span>-25%</span></a>
             </div>
           </div>
@@ -84,92 +84,114 @@
   <main class="main">
 
     <section class="block-one">
-      <div class="container-fluid">
+      <div class="container-fluid block-one__background">
         <div class="container">
-          <h1>Деревянные окна со стеклопакетом</h1>
-          <p>Доставим в любой город РФ<br> Нашли дешевле? Снизим цену! Гарантия лучшей цены! Рассрочка на остекление
-            квартиры и дома 0-0-12</p>
-          <dl>
-            <dt>16</dt>
-            <dd>лет производим деревянные окна</dd>
-            <dt>24</dt>
-            <dd>месяцев гарантии на окна и монтаж</dd>
-            <dt>3076</dt>
-            <dd>довольных клиентов</dd>
-          </dl>
-          <a href="#">Рассчитайте стоимость<span>-25%</span></a>
-          <form action="https://htmlacademy.ru" method="post" class="form">
-            <p>Узнать прямо сейчас, <span>какие окна подойдут вашему дома</span> <span>и получить скидку – 25%</span>
-            </p>
-            <label for="">
-              <input type="text" name="" id="" placeholder="Введите имя">
-            </label>
-            <label for="">
-              <input type="number" name="" id="" placeholder="Введите телефон">
-            </label>
-            <label for="">
-              <input type="number" name="" id="" placeholder="Введите размер окна">
-            </label>
-            <button type="submit">Получить расчет<span>-25%</span></button>
-            <p>Нажимая «Получить расчет» я соглашаюсь на обработку персональных данных и получение информации в
-              соответствии с <a href="#">пользовательским соглашением</a></p>
-          </form>
+          <div class="row">
+            <div class="col-xl-7 block-one__left">
+              <h1>Деревянные окна со стеклопакетом</h1>
+              <p>Доставим в любой город РФ</p>
+              <p>Нашли дешевле? Снизим цену! Гарантия лучшей цены!</p>
+              <p>Рассрочка на остекление квартиры и дома 0-0-12</p>
+              <dl>
+                <dt>16</dt>
+                <dd>лет производим деревянные окна</dd>
+                <dt>24</dt>
+                <dd>месяцев гарантии на окна и монтаж</dd>
+                <dt>3076</dt>
+                <dd>довольных клиентов</dd>
+              </dl>
+              <a href="#">Рассчитайте стоимость<span>-25%</span></a>
+            </div>
+            <div class="col-xl-5 block-one__right">
+              <form action="https://htmlacademy.ru" method="post" class="form">
+                <p><span>Узнать прямо сейчас,</span> <span>какие окна подойдут вашему дома</span> <span>и получить
+                    скидку –
+                    25%</span>
+                </p>
+                <label for="">
+                  <input type="text" name="" id="" placeholder="Введите имя">
+                </label>
+                <label for="">
+                  <input type="number" name="" id="" placeholder="Введите телефон">
+                </label>
+                <label for="">
+                  <input type="number" name="" id="" placeholder="Введите размер окна">
+                </label>
+                <button type="submit">Получить расчет<span>-25%</span></button>
+                <p class="policy">Нажимая «Получить расчет» я соглашаюсь на обработку персональных данных и получение
+                  информации в
+                  соответствии с <a href="#">пользовательским соглашением</a></p>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="block-two">
-      <div class="container-fluid">
-        <div class="container">
+      <div class="container-fluid block-two__background">
+        <div class="container block-two__wrapper">
           <h2>Популярные модели деревянных евроокон</h2>
           <div class="row cards">
-            <div class="col-xl-3 cards__item">
-              <img class="cards__image" src="img/block-two-image-one.png" alt="">
-              <h3 class="cards__tilte">Окна из сосны</h3>
-              <p class="cards__text">Сосна обладает высокой пористостью, хорошо сохраняет тепло. Материал легкий, что
-                позволяет изготовить
-                створки большого размера без риска провисания петель.</p>
-              <footer class="cards__footer">
-                <del class="cards__old-price">от 10600 Р.за м2</del>
-                <p class="cards__new-price">от 9400 Р.за м2</p>
-                <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
-              </footer>
+            <div class="col-xl-3">
+              <div class="cards__item">
+                <div class="cards__content">
+                  <img class="cards__image" src="img/block-two-image-one.png" alt="">
+                  <h3 class="cards__title">Окна из сосны</h3>
+                  <p class="cards__text">Сосна обладает высокой пористостью, хорошо сохраняет тепло. Материал легкий,
+                    что
+                    позволяет изготовить
+                    створки большого размера без риска провисания петель.</p>
+                </div>
+                <footer class="cards__footer">
+                  <del class="cards__old-price">от 10600 Р.за м2</del>
+                  <p class="cards__new-price">от 9400 Р.за м2</p>
+                  <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
+                </footer>
+              </div>
             </div>
-            <div class="col-xl-3 cards__item">
-              <img class="cards__image" src="img/block-two-image-one.png" alt="">
-              <h3 class="cards__tilte">Окна из сосны</h3>
-              <p class="cards__text">Сосна обладает высокой пористостью, хорошо сохраняет тепло. Материал легкий, что
-                позволяет изготовить
-                створки большого размера без риска провисания петель.</p>
-              <footer class="cards__footer">
-                <del class="cards__old-price">от 10600 Р.за м2</del>
-                <p class="cards__new-price">от 9400 Р.за м2</p>
-                <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
-              </footer>
+            <div class="col-xl-3">
+              <div class="cards__item">
+                <div class="cards__content">
+                  <img class="cards__image" src="img/block-two-image-two.png" alt="">
+                  <h3 class="cards__title">Окна
+                      из лиственницы</h3>
+                  <p class="cards__text">Окна из лиственницы — природный антисептик. Смола лиственницы имеет бактерицидные свойства и обеспечивает устойчивость окон к влаге.</p>
+                </div>
+                <footer class="cards__footer">
+                  <del class="cards__old-price">от 12600 Р.за м2</del>
+                  <p class="cards__new-price">от 11000 Р.за м2</p>
+                  <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
+                </footer>
+              </div>
             </div>
-            <div class="col-xl-3 cards__item">
-              <img class="cards__image" src="img/block-two-image-one.png" alt="">
-              <h3 class="cards__tilte">Окна из сосны</h3>
-              <p class="cards__text">Сосна обладает высокой пористостью, хорошо сохраняет тепло. Материал легкий, что
-                позволяет изготовить
-                створки большого размера без риска провисания петель.</p>
-              <footer class="cards__footer">
-                <del class="cards__old-price">от 10600 Р.за м2</del>
-                <p class="cards__new-price">от 9400 Р.за м2</p>
-                <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
-              </footer>
+            <div class="col-xl-3">
+              <div class="cards__item">
+                <div class="cards__content">
+                  <img class="cards__image" src="img/block-two-image-three.png" alt="">
+                  <h3 class="cards__title">Окна из дуба</h3>
+                  <p class="cards__text">Ярко выраженная текстура дуба подчеркивает благородство интерьера, а высокие показатели плотности и прочности позволяют дубовым окнам служить практически вечно.</p>
+                </div>
+                <footer class="cards__footer">
+                  <del class="cards__old-price">от 16600 Р.за м2</del>
+                  <p class="cards__new-price">от 15900 Р.за м2</p>
+                  <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
+                </footer>
+              </div>
             </div>
-            <div class="col-xl-3 cards__item">
-              <img class="cards__image" src="img/block-two-image-one.png" alt="">
-              <h3 class="cards__tilte">Окна из сосны</h3>
-              <p class="cards__text">Сосна обладает высокой пористостью, хорошо сохраняет тепло. Материал легкий, что
-                позволяет изготовить
-                створки большого размера без риска провисания петель.</p>
-              <footer class="cards__footer">
-                <del class="cards__old-price">от 10600 Р.за м2</del>
-                <p class="cards__new-price">от 9400 Р.за м2</p>
-                <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
-              </footer>
+            <div class="col-xl-3">
+              <div class="cards__item">
+                <div class="cards__content">
+                  <img class="cards__image" src="img/block-two-image-four.png" alt="">
+                  <h3 class="cards__title">Дерево-алюминиевые окна</h3>
+                  <p class="cards__text">Идеальное сочетание дерева и металла придает окнам рекордную долговечность. Алюминий стоек к внешним воздействиям — УФ лучам, влажности, перепаду температур, загрязнениям.</p>
+                </div>
+                <footer class="cards__footer">
+                  <del class="cards__old-price">от 20600 Р.за м2</del>
+                  <p class="cards__new-price">от 19000 Р.за м2</p>
+                  <a class="cards__order-link" href="#">Заказать<span>-25%</span></a>
+                </footer>
+              </div>
             </div>
           </div>
         </div>

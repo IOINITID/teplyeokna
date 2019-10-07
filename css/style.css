@@ -16,6 +16,22 @@
   src: url("../fonts/PTRootUIBold.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Intro";
+  font-weight: 400;
+  src: url("../fonts/IntroRegular.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "PT Root UI";
   font-size: 14px;
@@ -47,8 +63,6 @@ body {
   font-family: "PT Root UI";
   font-size: 14px;
   font-weight: 400;
-  /* line-height: 30px;
-  letter-spacing: 0.35px; */
 }
 
 .header__address p a {
@@ -56,8 +70,6 @@ body {
   font-family: "PT Root UI";
   font-size: 18px;
   font-weight: 700;
-  /* line-height: 30px; */
-  /* letter-spacing: 0.45px; */
 }
 
 .block-three .item {
@@ -66,4 +78,384 @@ body {
 
 .block-three .item img {
   width: 100%;
+}
+
+.header__bottom .header__background {
+  background-color: #f2ebe4;
+}
+
+.header__navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+}
+
+.header__navigation ul li a {
+  color: #857c7c;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__order {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__order a {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 250px;
+  min-height: 44px;
+  border-radius: 22px;
+  background-color: #decbba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header__order a span {
+  width: 36px;
+  height: 36px;
+  background-color: #df0024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.block-one__background {
+  background-image: url("../img/block-one-image-one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 845px;
+}
+
+.block-one h1 {
+  color: #ffffff;
+  font-family: "Intro";
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.block-one__left {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.block-one__left h1 {
+  margin-bottom: 40px;
+}
+
+.block-one__left p {
+  color: #d9c66a;
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #000000;
+  opacity: 0.5;
+  padding: 7px 12px;
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.block-one__left p:last-of-type {
+  margin-bottom: 80px;
+}
+
+.block-one__left dl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.block-one__left dl dt {
+  color: #ffffff;
+  font-family: "Intro";
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.block-one__left dl dd {
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.block-one__left a {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  width: 364px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #bfb741;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.block-one__left a span {
+  width: 50px;
+  height: 50px;
+  background-color: #df0024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.block-one__right form {
+  border: 15px solid #bfb741;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 80px 50px 80px;
+  margin-top: 110px;
+}
+
+.block-one__right form p {
+  color: #342121;
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-one__right form p:first-child {
+  margin-bottom: 35px;
+}
+
+.block-one__right form p span:first-child {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.block-one__right form p span:nth-child(2) {
+  color: #342121;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.block-one__right form p span:last-child {
+  color: #ff6137;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.block-one__right form label {
+  margin-bottom: 22px;
+}
+
+.block-one__right form label:last-of-type {
+  margin-bottom: 30px;
+}
+
+.block-one__right form label input {
+  color: #8b857e;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+  width: 364px;
+  height: 50px;
+  border: 2px solid #f2ebe4;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.block-one__right form button {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  width: 364px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #bfb741;
+  border: none;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.block-one__right form button span {
+  width: 60px;
+  height: 60px;
+  background-color: #df0024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+}
+
+.block-one__right form .policy {
+  color: #a8a19a;
+  font-family: "PT Root UI";
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+.block-one__right form .policy a {
+  color: #342121;
+  text-decoration: underline;
+}
+
+.block-two__wrapper {
+  padding-top: 120px;
+}
+
+.block-two__background {
+  background-color: #f5f3f3;
+}
+
+.block-two h2 {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.block-two .cards .cards__item {
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.block-two .cards .cards__content {
+  padding: 40px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-two .cards .cards__image {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.block-two .cards .cards__title {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.block-two .cards .cards__text {
+  color: #a8a19a;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cards__footer {
+  width: 100%;
+  height: 237px;
+  background-color: #f7f6e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards__footer .cards__old-price {
+  color: #857c7c;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.cards__footer .cards__new-price {
+  font-family: "PT Root UI";
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.cards__footer .cards__order-link {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  width: 220px;
+height: 60px;
+border-radius: 4px;
+background-color: #bfb741;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.cards__footer .cards__order-link span {
+  width: 50px;
+  height: 50px;
+  background-color: #df0024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 18px;
+  right: 22px;
 }
