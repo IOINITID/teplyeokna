@@ -958,7 +958,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 0 15px rgba(191,183,65, 0.2);
+  box-shadow: 0 0 0 15px rgba(191, 183, 65, 0.2);
   margin-bottom: 40px;
 }
 
@@ -966,11 +966,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-font-family: "PT Root UI";
-font-size: 24px;
-font-weight: 700;
-max-width: 200px;
-margin-bottom: 10px;
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 200px;
+  margin-bottom: 10px;
 }
 
 .block-eleven__item p {
@@ -987,21 +987,224 @@ margin-bottom: 10px;
 }
 
 .block-twelve__wrapper {
-padding-top: 100px;
-padding-bottom: 140px;
+  padding-top: 100px;
+  padding-bottom: 140px;
 }
 
 .block-twelve__wrapper h2 {
   color: #000000;
-font-family: "PT Root UI";
-font-size: 48px;
-font-weight: 700;
-text-align: center;
-margin-bottom: 100px;
+  font-family: "PT Root UI";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .block-twelve__wrapper ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.block-thirteen__background {
+  background-image: url("../img/block-five-imege-two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.block-thirteen__wrapper {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.block-thirteen__wrapper h2 {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.block-thirteen__item {
+  margin-bottom: 50px;
+}
+
+.block-thirteen__item img {
+  margin-bottom: 30px;
+}
+
+.block-thirteen__item h3 {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.block-thirteen__item p {
+  color: #857c7c;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.block-thirteen__item a {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 700;
+  width: 241px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #f2f1d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.block-thirteen__item a span {
+  width: 42px;
+  height: 42px;
+  background-color: #df0024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 13px;
+  right: 14px;
+}
+
+.block-fourteen__wrapper {
+  padding: 100px 0;
+}
+
+.block-fourteen__wrapper h2 {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.block-fourteen__item {
+  border: 4px solid #bfb741;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+}
+
+.block-fourteen__item span {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.block-fourteen__item p {
+  color: #857c7c;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.block-fourteen__wrapper a {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  width: 364px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #bfb741;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.block-fifteen__background {
+  background-image: url("../img/block-fifteen-image-one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 650px;
+}
+
+.block-fifteen address {
+  border: 15px solid #bfb741;
+  background-color: #ffffff;
+  margin-top: 90px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 0;
+}
+
+.block-fifteen address h3 {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.block-fifteen .text-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.block-fifteen address p {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.block-fifteen address a {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.block-fifteen address .block-fifteen__tel {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__wrapper {
+min-height: 138px;
+display: flex;
+align-items: center;
+}
+
+.footer p {
+  color: #857c7c;
+font-family: "PT Root UI";
+font-size: 16px;
+font-weight: 400;
+margin: 0;
+margin-left: auto;
 }
