@@ -775,3 +775,94 @@ body {
   bottom: -60px;
   left: 205px;
 }
+
+.block-eight__wrapper {
+  padding-bottom: 100px;
+}
+
+.block-eight__wrapper h2 {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.block-eight__item span {
+  color: #ffffff;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 1;
+}
+
+.block-eight__item .border-line {
+  width: 80px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  background-color: #bfb741;
+  transition: 0.25s ease-in;
+}
+
+.block-eight__item img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.block-eight__item a:hover + .border-line,
+.block-eight__item a:focus + .border-line {
+  width: 40px;
+  transition: 0.25s ease-in;
+}
+
+.block-eight__item {
+  margin-bottom: 30px;
+}
+
+.block-nine__background {
+  background-image: url("../img/block-nine-image-five.jpg");
+}
+
+.block-nine__wrapper {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.block-nine__wrapper h2 {
+  color: #000000;
+font-family: "PT Root UI";
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 100px;
+}
+
+.block-nine__item figure {
+  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-nine__item figure img {
+border-radius: 50%;
+box-shadow: 0 0 0 10px #ffffff;
+margin-bottom: 35px;
+}
+
+.block-nine__item figure figcaption {
+  color: #857c7c;
+font-family: "PT Root UI";
+font-size: 18px;
+font-weight: 700;
+}
