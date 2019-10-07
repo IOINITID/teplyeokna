@@ -140,11 +140,26 @@ body {
 }
 
 .block-one__background {
-  background-image: url("../img/block-one-image-one.jpg");
+  /* background-image: url("../img/block-one-image-one.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  min-height: 845px; */
+  position: relative;
   min-height: 845px;
+  background-color: #351a1a;
+}
+
+.block-one__image {
+  position: absolute;
+    background-image: url("../img/block-one-image-one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .block-one h1 {
