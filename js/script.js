@@ -161,14 +161,14 @@ $('.slider').slick({
   autoplaySpeed: 5000,
   arrows: true,
   dots: false,
-  // responsive: [{
-  //   breakpoint: 576,
-  //   settings: {
-  //     arrows: false,
-  //     slidesToShow: 1,
-  //     dots: false
-  //   }
-  // }]
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      slidesToShow: 1,
+      dots: false
+    }
+  }]
 });
 
 // // mobile menu
