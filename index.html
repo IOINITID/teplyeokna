@@ -1066,7 +1066,7 @@
                   компании «ДверникоФФ &ОконникоФФ». Упехов, процветания и долголетия!</p>
               </div>
             </div>
-            <a href="#">Оставить отзыв</a>
+            <a href="#" data-toggle="modal" data-target="#modal-three">Оставить отзыв</a>
           </div>
         </div>
       </div>
@@ -1143,11 +1143,37 @@
             <p>Заказать звонок</p>
             </p>
             <label for="name">
-                <input type="text" name="name" id="name" placeholder="Введите имя">
-              </label>
-              <label for="phone">
-                <input type="number" name="phone" id="phone" placeholder="Введите телефон">
-              </label>
+              <input type="text" name="name" id="name" placeholder="Введите имя">
+            </label>
+            <label for="phone">
+              <input type="number" name="phone" id="phone" placeholder="Введите телефон">
+            </label>
+            <button type="submit">Отправить</button>
+            <p class="policy">Нажимая «Получить расчет» я соглашаюсь на обработку персональных данных и получение
+              информации в
+              соответствии с <a href="#">пользовательским соглашением</a></p>
+          </form>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-three" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="block-one__right modal-one">
+          <form action="https://echo.htmlacademy.ru" method="post" class="form">
+            <p>Оставьте отзыв</p>
+            </p>
+            <label for="name">
+              <input type="text" name="name" id="name" placeholder="Введите имя">
+            </label>
+            <label for="text">
+              <textarea name="text" id="text" cols="30" rows="5" placeholder="Напишите отзыв..."></textarea>
+            </label>
             <button type="submit">Отправить</button>
             <p class="policy">Нажимая «Получить расчет» я соглашаюсь на обработку персональных данных и получение
               информации в

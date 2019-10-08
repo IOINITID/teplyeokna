@@ -317,6 +317,19 @@ body {
   padding: 0 20px;
 }
 
+.block-one__right form label textarea {
+  color: #8b857e;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+  width: 364px;
+  /* height: 50px; */
+  border: 2px solid #f2ebe4;
+  background-color: #ffffff;
+  /* text-align: center; */
+  padding: 20px;
+}
+
 .block-one__right form button {
   color: #000000;
   font-family: "PT Root UI";
