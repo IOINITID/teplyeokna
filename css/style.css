@@ -45,6 +45,11 @@ body {
   align-items: center;
 }
 
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
 .header__address {
   margin: 0;
   display: flex;
@@ -1835,4 +1840,34 @@ body {
 
 .promo-cols__col_left {
   padding: 0;
+}
+
+.up {
+  border: none;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  /* bottom: 30px;
+  right: 30px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease-in;
+}
+
+.up:hover,
+.up:focus {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.up svg {
+  width: 20px;
+  height: 20px;
+}
+
+.up-active {
+  bottom: 30px;
+  right: 30px;
 }

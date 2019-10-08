@@ -128,6 +128,32 @@ $("#height").text($("#height").slider().val());
 $("#height").val($("#height").slider().val());
 $(".slider-height-value").text($("#height").slider().val());
 
+$('.scroll ul li a').on('click', function () {
+  var el = $(this);
+  var dest = el.attr('href');
+  if (dest !== undefined && dest !== '') {
+    $('html').animate({
+      scrollTop: $(dest).offset().top
+    }, 500);
+  };
+  return false;
+});
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 2000) {
+    $('.up').fadeIn().addClass('up-active');
+  } else {
+    $('.up').fadeOut().removeClass('up-active');
+  }
+});
+
+$('.up').click(function () {
+  $('body,html').animate({
+    scrollTop: 0
+  }, 500);
+  return false;
+});
+
 $('.slider').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
