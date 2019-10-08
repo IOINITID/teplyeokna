@@ -86,7 +86,7 @@
     <section class="block-one">
       <div class="container-fluid block-one__background">
         <div class="block-one__image">
-          </div>
+        </div>
         <div class="container">
           <div class="row">
             <div class="col-xl-7 block-one__left">
@@ -226,57 +226,182 @@
     </section>
 
     <section class="block-four">
-      <h2>Рассчитайте стоимость ваших окон прямо сейчас</h2>
-      <form action="https://htmlacademy.ru" method="post">
+      <form action="https://echo.htmlacademy.ru" method="post">
 
-        <div class="block-four__header">
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+        <div class="container-fluid block-four__background">
+          <div class="container block-four__wrapper">
+            <h2>Рассчитайте стоимость ваших окон прямо сейчас</h2>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+            <div class="block-four__header">
+              <label class="one" for="one">
+                <input type="radio" name="type" id="one" value="one">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="70" viewBox="0 0 35 70">
+                  <path fill="#d9c66a" d="M0 0h35v70H0zm31 4H4v62h27z" />
+                </svg>
+              </label>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+              <label class="two" for="two">
+                <input type="radio" name="type" id="two" value="two">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="70" viewBox="0 0 35 70">
+                  <path fill="#d9c66a" d="M0 0h35v70H0zm31 28H4v38h27zm0-24H4v20h27z" />
+                </svg>
+              </label>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+              <label class="three" for="three">
+                <input type="radio" name="type" id="three" value="three">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="70" viewBox="0 0 66 70">
+                  <path fill="#d9c66a" d="M0 0h66v70H0zm62 4H35v62h27zM4 4v62h27V4z" />
+                </svg>
+              </label>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+              <label class="four" for="four">
+                <input type="radio" name="type" id="four" value="four">
+                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="70" viewBox="0 0 66 70">
+                  <path fill="#d9c66a" d="M0 0h66v70H0zm62 28H35v38h27zm0-24H4v20h58zM4 28v38h27V28z" />
+                </svg>
+              </label>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+              <label class="five" for="five">
+                <input type="radio" name="type" id="five" value="five">
+                <svg xmlns="http://www.w3.org/2000/svg" width="97" height="70" viewBox="0 0 97 70">
+                  <g>
+                    <g>
+                      <path fill="#d9c66a" d="M0 0h97v70H0zm93 4H66v62h27zM35 4v62h27V4zM4 4v62h27V4z" />
+                    </g>
+                  </g>
+                </svg>
+              </label>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+              <label class="six" for="six">
+                <input type="radio" name="type" id="six" value="six">
+                <svg xmlns="http://www.w3.org/2000/svg" width="97" height="70" viewBox="0 0 97 70">
+                  <path fill="#d9c66a" d="M0 0h97v70H0zm93 28H66v38h27zm-58 0v38h27V28zM93 4H4v20h89zM4 28v38h27V28z" />
+                </svg>
+              </label>
 
-          <label for="">
-            <input type="radio" name="" id="">
-          </label>
+              <label class="seven" for="seven">
+                <input type="radio" name="type" id="seven" value="seven">
+                <svg xmlns="http://www.w3.org/2000/svg" width="97" height="101" viewBox="0 0 97 101">
+                  <path fill="#d9c66a"
+                    d="M0 0h97v70H35v31H0zm93 4H66v62h27zM35 4v62h27V4zM4 4v62h27V4zm0 93h27V70H4zm16-46h7v3h-7z" />
+                </svg>
+              </label>
+
+              <label class="eight" for="eight">
+                <input type="radio" name="type" id="eight" value="eight">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="74" viewBox="0 0 35 74">
+                  <g>
+                    <g>
+                      <path fill="#d9c66a"
+                        d="M0 4v-.064C12.06-.79 22.935-1 35 3.936V74H0V4zm31 2.43c-9.147-3.18-17.894-3.352-27-.079v63.648h27z" />
+                    </g>
+                  </g>
+                </svg>
+              </label>
+
+            </div>
+
+            <div class="container block-four__main">
+
+              <div class="row block-four__container">
+
+                <div class="col-xl-6">
+
+                  <div class="top">
+                    <label class="width" for="width">
+                      <input type="number" name="width" id="width" value="0">
+                      <span>мм</span>
+                    </label>
+
+                    <span class="devider">Х</span>
+
+                    <label class="height" for="height">
+                      <input type="number" name="height" id="height" value="0">
+                      <span>мм</span>
+                    </label>
+                  </div>
+
+                  <div class="bottom">
+
+                    <div class="white-background">
+                      <img src="img/block-four-image-one.svg" alt="">
+                    </div>
+
+                    <div class="slider-width">
+                      <span class="slider-width-value">0</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-xl-1">
+                  <div class="right">
+                    <div class="slider-height">
+                      <span class="slider-height-value">0</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-5 properties-wrapper">
+
+                  <div class="properties">
+                    <label class="quantity" for="quantity">
+                      <span>Количество:</span>
+                      <input type="number" name="quantity" id="quantity" value=""
+                        placeholder="Введите количество товара">
+                    </label>
+
+                    <label class="material" for="material">
+                      <span>Материал:</span>
+                      <select name="material" id="material">
+                        <option value="one">Сосна</option>
+                        <option value="two">Лиственница</option>
+                      </select>
+                    </label>
+
+                    <label class="window" for="window">
+                      <span>Стеклопакет:</span>
+                      <select name="window" id="window">
+                        <option value="one">2 камерный 44 мм</option>
+                        <option value="two">2 камерный 32 мм</option>
+                      </select>
+                    </label>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
         </div>
 
-        <div class="block-four__main">
+        <div class="container-fluid block-four__background-footer">
+          <div class="container">
+            <div class="block-four__footer">
 
-        </div>
+              <div class="block-four__footer-wrapper">
+                <label class="name" for="name">
+                  <input type="text" name="name" id="name" placeholder="Введите имя">
+                </label>
 
-        <div class="block-four__footer">
-          <label for="">
-            <input type="text" name="" id="">
-          </label>
-          <label for="">
-            <input type="number" name="" id="">
-          </label>
-          <button type="submit">Получить расчет<span>-25%</span></button>
-          <p>Нажимая «Получить расчет» я соглашаюсь на обработку персональных данных и получение информации в
-            соответствии с <a href="#">пользовательским соглашением</a></p>
+                <label class="phone" for="phone">
+                  <input type="number" name="phone" id="phone" placeholder="Введите телефон">
+                </label>
+
+                <button class="send-button" type="submit">Получить расчет<span>-25%</span></button>
+
+              </div>
+
+              <p>Нажимая «Получить расчет» я соглашаюсь на обработку персональных данных и получение информации в
+                соответствии с <a href="#">пользовательским соглашением</a></p>
+
+            </div>
+          </div>
         </div>
 
       </form>
@@ -908,6 +1033,26 @@
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
+  <script>
+    $(".slider-height").slider({
+      animate: "slow",
+      range: "min",
+      min: 0,
+      max: 10000,
+      value: 0,
+      orientation: "vertical",
+      slide: function (event, ui) {
+        $("#height").text(ui.value);
+        $("#height").val(ui.value);
+        $(".slider-height-value").text(ui.value);
+      }
+    });
+
+    $("#height").text($("#height").slider("value"));
+    $("#height").val($("#height").slider("value"));
+    $(".slider-height-value").text($("#height").slider("value"));
+
+  </script>
 </body>
 
 </html>
