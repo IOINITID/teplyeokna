@@ -920,24 +920,6 @@ body {
   text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .block-five__background {
   background-image: url("../img/block-five-imege-two.jpg");
   background-repeat: no-repeat;
@@ -1276,7 +1258,6 @@ body {
   object-fit: cover;
 }
 
-
 .block-eight__item a:hover+.border-line,
 .block-eight__item a:focus+.border-line {
   width: 40px;
@@ -1314,8 +1295,9 @@ body {
 
 .block-nine__item figure img {
   border-radius: 50%;
-  box-shadow: 0 0 0 10px #ffffff;
   margin-bottom: 35px;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.15);
+  border: 10px solid #ffffff;
 }
 
 .block-nine__item figure figcaption {
@@ -1555,7 +1537,6 @@ body {
   margin-bottom: 100px;
 }
 
-
 .block-fourteen__item {
   border: 4px solid #bfb741;
   margin-bottom: 30px;
@@ -1665,4 +1646,39 @@ body {
   font-weight: 400;
   margin: 0;
   margin-left: auto;
+}
+
+.slick-prev:before {
+  content: "";
+  background-image: url("../img/block-nine-arrow-left.svg");
+  width: 26px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  top: -35px;
+}
+
+.slick-next:before {
+  content: "";
+  background-image: url("../img/block-nine-arrow-right-icon.svg");
+  width: 26px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  top: -35px;
+}
+
+.modal-one form {
+  margin: 0;
+  position: relative;
+}
+
+.modal-one .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.modal-one .close span {
+  font-size: 30px;
 }
