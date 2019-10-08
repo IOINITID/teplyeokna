@@ -94,6 +94,40 @@ $('.block-four__header .eight').on('click', () => {
   $('.white-background img').attr("src", "img/block-four-image-eight.svg");
 });
 
+$(".slider-width").slider({
+  animate: "slow",
+  range: "min",
+  min: 0,
+  max: 10000,
+  value: 0,
+  slide: function (event, ui) {
+    $("#width").text(ui.value);
+    $("#width").val(ui.value);
+    $(".slider-width-value").text(ui.value);
+  }
+});
+
+$("#width").text($("#width").slider().val());
+$("#width").val($("#width").slider().val());
+$(".slider-width-value").text($("#width").slider().val());
+
+$(".slider-height").slider({
+  animate: "slow",
+  range: "min",
+  min: 0,
+  max: 10000,
+  value: 0,
+  orientation: "vertical",
+  slide: function (event, ui) {
+    $("#height").text(ui.value);
+    $("#height").val(ui.value);
+    $(".slider-height-value").text(ui.value);
+  }
+});
+$("#height").text($("#height").slider().val());
+$("#height").val($("#height").slider().val());
+$(".slider-height-value").text($("#height").slider().val());
+
 $('.slider').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
