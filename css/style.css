@@ -99,6 +99,16 @@ body {
   font-family: "PT Root UI";
   font-size: 16px;
   font-weight: 400;
+  text-decoration: none;
+}
+
+.header__navigation ul li a:hover,
+.header__navigation ul li a:focus {
+  color: #6a6363;
+}
+
+.header__navigation ul li a:active {
+  color: #9d9696;
 }
 
 .header__order {
@@ -120,6 +130,16 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-decoration: none;
+}
+
+.header__order a:hover,
+.header__order a:focus {
+  background-color: #e4d5c7;
+}
+
+.header__order a:active {
+  background-color: #b1a294;
 }
 
 .header__order a span {
@@ -234,6 +254,16 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-decoration: none
+}
+
+.block-one__left a:hover,
+.block-one__left a:focus {
+  background-color: #cbc566;
+}
+
+.block-one__left a:active {
+  background-color: #989234;
 }
 
 .block-one__left a span {
@@ -342,6 +372,15 @@ body {
   border: none;
   position: relative;
   margin-bottom: 25px;
+}
+
+.block-one__right form button:hover,
+.block-one__right form button:focus {
+  background-color: #cbc566;
+}
+
+.block-one__right form button:active {
+  background-color: #989234;
 }
 
 .block-one__right form button span {
@@ -472,6 +511,16 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-decoration: none
+}
+
+.cards__footer .cards__order-link:hover,
+.cards__footer .cards__order-link:focus {
+  background-color: #cbc566;
+}
+
+.cards__footer .cards__order-link:active {
+  background-color: #989234;
 }
 
 .cards__footer .cards__order-link span {
@@ -902,6 +951,15 @@ body {
   text-transform: uppercase;
 }
 
+.block-four__footer .send-button:hover,
+.block-four__footer .send-button:focus {
+  background-color: #cbc566;
+}
+
+.block-four__footer .send-button:active {
+  background-color: #989234;
+}
+
 .block-four__footer .send-button span {
   width: 60px;
   height: 60px;
@@ -1192,6 +1250,16 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-decoration: none
+}
+
+.info .info__order:hover,
+.info .info__order:focus {
+  background-color: #cbc566;
+}
+
+.info .info__order:active {
+  background-color: #989234;
 }
 
 .info .info__order span {
@@ -1363,6 +1431,16 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-decoration: none;
+}
+
+.block-ten__text a:hover,
+.block-ten__text a:focus {
+  background-color: #cbc566;
+}
+
+.block-ten__text a:active {
+  background-color: #989234;
 }
 
 .block-ten__text a span {
@@ -1518,6 +1596,16 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-decoration: none;
+}
+
+.block-thirteen__item a:hover,
+.block-thirteen__item a:focus {
+  background-color: #f4f3e0;
+}
+
+.block-thirteen__item a:active {
+  background-color: #c1c0ad;
 }
 
 .block-thirteen__item a span {
@@ -1588,6 +1676,16 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 50px;
+  text-decoration: none
+}
+
+.block-fourteen__wrapper a:hover,
+.block-fourteen__wrapper a:focus {
+  background-color: #cbc566;
+}
+
+.block-fourteen__wrapper a:active {
+  background-color: #989234;
 }
 
 .block-fifteen__background {
@@ -1659,6 +1757,16 @@ body {
   font-weight: 400;
   margin: 0;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer p a {
+  color: #000000;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .slick-prev:before {
@@ -1694,4 +1802,37 @@ body {
 
 .modal-one .close span {
   font-size: 30px;
+}
+
+.block-fifteen {
+  position: relative;
+}
+
+.block-fifteen iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 650px;
+  pointer-events: none;
+}
+
+.block-fifteen__wrapper address {
+  z-index: 1;
+}
+
+.promo-product__product {
+  width: 70%;
+  height: 100%;
+  margin-left: 0;
+  position: unset;
+  background-position: 50% 50%;
+  top: unset;
+  left: unset;
+  display: block;
+  margin: auto;
+}
+
+.promo-cols__col_left {
+  padding: 0;
 }

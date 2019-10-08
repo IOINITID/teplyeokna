@@ -738,42 +738,42 @@
           <h2>Форма окна может быть любой</h2>
           <div class="row">
             <div class="col-xl-4 block-eight__item">
-              <a href="#">
+              <a>
                 <span>Прямоугольные окна</span>
                 <img src="img/block-eight-image-one.jpg" alt="">
               </a>
               <div class="border-line"></div>
             </div>
             <div class="col-xl-4 block-eight__item">
-              <a href="#">
+              <a>
                 <span>Трапецевидные окна</span>
                 <img src="img/block-eight-image-two.jpg" alt="">
               </a>
               <div class="border-line"></div>
             </div>
             <div class="col-xl-4 block-eight__item">
-              <a href="#">
+              <a>
                 <span>Штульповые окна</span>
                 <img src="img/block-eight-image-three.jpg" alt="">
               </a>
               <div class="border-line"></div>
             </div>
             <div class="col-xl-4 block-eight__item">
-              <a href="#">
+              <a>
                 <span>Арочные окна</span>
                 <img src="img/block-eight-image-four.jpg" alt="">
               </a>
               <div class="border-line"></div>
             </div>
             <div class="col-xl-4 block-eight__item">
-              <a href="#">
+              <a>
                 <span>Треугольные окна</span>
                 <img src="img/block-eight-image-five.jpg" alt="">
               </a>
               <div class="border-line"></div>
             </div>
             <div class="col-xl-4 block-eight__item">
-              <a href="#">
+              <a>
                 <span>Круглые окна</span>
                 <img src="img/block-eight-image-six.jpg" alt="">
               </a>
@@ -1073,6 +1073,9 @@
     </section>
 
     <section class="block-fifteen">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A939eeb02f61053993942c8f49af3090e2a8b552a389e3e6fc0953c75a860f586&amp;source=constructor"
+        width="500" height="400" frameborder="0"></iframe>
       <div class="container-fluid block-fifteen__background">
         <div class="container block-fifteen__wrapper">
           <div class="row">
@@ -1097,12 +1100,13 @@
   <footer class="footer">
     <div class="container-fluid">
       <div class="container footer__wrapper">
-        <p>Copyright © 2019 Freepik Company S.L. All rights reserved.</p>
+        <p>2019 © Теплые окна. Все права защищены.
+          <a href="http://web-elitit.ru" target="_blank">design by ELIT-IT</a>
+        </p>
+
       </div>
     </div>
   </footer>
-
-
 
   <div class="modal" id="modal-one" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
@@ -1187,15 +1191,30 @@
     </div>
   </div>
 
-
-
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="slick/slick.min.js"></script>
   <script src="js/script.js"></script>
-  <!-- <script>
+  <script>
+$(".slider-width").slider({
+  animate: "slow",
+  range: "min",
+  min: 0,
+  max: 10000,
+  value: 0,
+  slide: function (event, ui) {
+    $("#width").text(ui.value);
+    $("#width").val(ui.value);
+    $(".slider-width-value").text(ui.value);
+  }
+});
+
+$("#width").text($("#width").slider().val());
+$("#width").val($("#width").slider().val());
+$(".slider-width-value").text($("#width").slider().val());
+
     $(".slider-height").slider({
       animate: "slow",
       range: "min",
@@ -1209,11 +1228,11 @@
         $(".slider-height-value").text(ui.value);
       }
     });
-    $("#height").text($("#height").slider("value"));
-    $("#height").val($("#height").slider("value"));
-    $(".slider-height-value").text($("#height").slider("value"));
+    $("#height").text($("#height").slider().val());
+    $("#height").val($("#height").slider().val());
+    $(".slider-height-value").text($("#height").slider().val());
 
-  </script> -->
+  </script>
 </body>
 
 </html>

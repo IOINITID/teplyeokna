@@ -94,41 +94,6 @@ $('.block-four__header .eight').on('click', () => {
   $('.white-background img').attr("src", "img/block-four-image-eight.svg");
 });
 
-// $(".slider-width").slider({
-//   animate: "slow",
-//   range: "min",
-//   min: 0,
-//   max: 10000,
-//   value: 0,
-//   slide: function (event, ui) {
-//     $("#width").text(ui.value);
-//     $("#width").val(ui.value);
-//     $(".slider-width-value").text(ui.value);
-//   }
-// });
-
-// $("#width").text($("#width").slider("value"));
-// $("#width").val($("#width").slider("value"));
-// $(".slider-width-value").text($("#width").slider("value"));
-
-// $(".slider-height").slider({
-//   animate: "slow",
-//   range: "min",
-//   min: 0,
-//   max: 10000,
-//   value: 0,
-//   orientation: "vertical",
-//   slide: function (event, ui) {
-//     $("#height").text(ui.value);
-//     $("#height").val(ui.value);
-//     $(".slider-height-value").text(ui.value);
-//   }
-// });
-
-// $("#height").text($("#height").slider("value"));
-// $("#height").val($("#height").slider("value"));
-// $(".slider-height-value").text($("#height").slider("value"));
-
 $('.slider').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
