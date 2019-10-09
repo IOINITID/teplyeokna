@@ -2065,6 +2065,10 @@ select {
   display: none;
 }
 
+.block-fourteen__mobile {
+  display: none;
+}
+
 @media (max-width: 1299.98px) {}
 
 @media (max-width: 767.98px) {
@@ -2719,6 +2723,11 @@ select {
 
   .additional label span::before {
     right: -25px;
+  }
+
+  .additional label {
+    margin: 0;
+    width: 110px;
   }
 
 }
