@@ -96,10 +96,12 @@ body {
 
 .mobileMenu .menu-list-mobile ul li {
   border-bottom: solid 1px rgba(222, 222, 222, 0.25);
+  padding: 15px 0;
 }
 
 .mobileMenu .menu-list-mobile ul li:first-child {
   border-top: solid 1px rgba(222, 222, 222, 0.25);
+
 }
 
 .mobileMenu .menu-list-mobile ul li a {
@@ -114,6 +116,15 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+.header-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0 0px 1px 0 #101010;
 }
 
 .header__top {
@@ -1957,6 +1968,22 @@ body {
   display: none;
 }
 
+.slider-two {
+  display: none;
+}
+
+.slider-three {
+  display: none;
+}
+
+.slider-four {
+  display: none;
+}
+
+@media (max-width: 1299.98px) {
+
+}
+
 @media (max-width: 767.98px) {
   .header__address-wrapper {
     display: none;
@@ -2028,6 +2055,10 @@ body {
     text-align: center;
   }
 
+  .block-one__right form label textarea {
+    width: 100%;
+  }
+
   .block-one__right form p:first-child {
     text-align: center;
   }
@@ -2047,6 +2078,7 @@ body {
     top: 3px;
     right: 3px;
   }
+
 
   .block-one__right {
     padding: 0;
@@ -2421,7 +2453,6 @@ body {
 
   .block-fourteen__wrapper a {
     width: 100%;
-    margin: 0 15px;
   }
 
   .block-fifteen address {
@@ -2541,6 +2572,62 @@ body {
 
   .block-five__image {
     width: 290px;
+  }
+
+  .slider-two {
+    display: block;
+  }
+
+  .sertificates-wrapper {
+    display: none;
+  }
+
+  .slick-dots li button:before {
+    font-size: 20px;
+  }
+
+  .slider-three {
+    display: block;
+  }
+
+  .projects-wrapper {
+    display: none;
+  }
+
+  .slider-three .slick-dots li.slick-active button:before {
+    color: #ffffff;
+  }
+
+  .slider-three .slick-dots li button:before {
+    color: #ffffff;
+  }
+
+  .slider-one .slick-prev:before {
+    left: 0;
+  }
+
+  .slider-one .slick-prev {
+    left: 0;
+  }
+
+  .slider-one .slick-next:before {
+    right: 0;
+  }
+
+  .slider-one .slick-next {
+    right: 0;
+  }
+
+  .review {
+    display: none;
+  }
+
+  .slider-four {
+    display: block;
+  }
+
+  .header__top {
+    min-height: 60px;
   }
 
 }
