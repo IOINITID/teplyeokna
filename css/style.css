@@ -774,6 +774,65 @@ body {
   flex-direction: column;
 }
 
+.additional {
+  display: flex;
+  justify-content: space-between;
+  width: 303px;
+}
+
+.additional-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.additional label {
+  margin: 0;
+  width: 45%;
+}
+
+.additional label input {
+  display: none;
+}
+
+.additional label span {
+  position: relative;
+  cursor: pointer;
+  color: #342121;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.additional label span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -30px;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid #f2ebe4;
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 4px #ffffff;
+}
+
+.additional label input:checked+span::before {
+  background-color: #989234;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .white-background {
   margin-bottom: 80px;
 }
@@ -913,6 +972,7 @@ body {
 .properties .quantity {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .properties .quantity span {
@@ -939,6 +999,7 @@ body {
 .properties .material {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .properties .material span {
@@ -960,11 +1021,23 @@ body {
   font-weight: 400;
   padding: 0 20px;
   margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.properties .material .item-wrapper {
+  position: relative;
+}
+
+.properties .material .item-wrapper svg {
+  position: absolute;
+  top: 21px;
+  right: 16px;
 }
 
 .properties .window {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .properties .window span {
@@ -986,6 +1059,17 @@ body {
   font-weight: 400;
   padding: 0 20px;
   margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.properties .window .item-wrapper {
+  position: relative;
+}
+
+.properties .window .item-wrapper svg {
+  position: absolute;
+  top: 21px;
+  right: 16px;
 }
 
 .block-four__footer {
@@ -1980,9 +2064,7 @@ body {
   display: none;
 }
 
-@media (max-width: 1299.98px) {
-
-}
+@media (max-width: 1299.98px) {}
 
 @media (max-width: 767.98px) {
   .header__address-wrapper {
@@ -2537,7 +2619,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    box-shadow: 0 0 0 5px #ffffff, 0 0 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 0 5px #ffffff, 0 0 10px 5px rgba(0, 0, 0, 0.5);
   }
 
   .block-five__mobile span:nth-of-type(1) {
@@ -2628,6 +2710,14 @@ body {
 
   .header__top {
     min-height: 60px;
+  }
+
+  .additional {
+    width: 230px;
+  }
+
+  .additional label span::before {
+    right: -25px;
   }
 
 }

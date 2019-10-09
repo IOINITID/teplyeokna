@@ -430,19 +430,42 @@
 
                       <label class="material" for="material">
                         <span>Материал:</span>
-                        <select name="material" id="material">
-                          <option value="one">Сосна</option>
-                          <option value="two">Лиственница</option>
-                        </select>
+                        <div class="item-wrapper">
+                          <select name="material" id="material">
+                            <option value="one">Сосна</option>
+                            <option value="two">Лиственница</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8">
+                            <path fill="#bfb741" d="M.012 1.136L1.177-.007 7 5.703l5.823-5.71 1.165 1.143L7 7.988z" />
+                          </svg>
+                        </div>
                       </label>
 
                       <label class="window" for="window">
                         <span>Стеклопакет:</span>
-                        <select name="window" id="window">
-                          <option value="one">2 камерный 44 мм</option>
-                          <option value="two">2 камерный 32 мм</option>
-                        </select>
+                        <div class="item-wrapper">
+                          <select name="window" id="window">
+                            <option value="one">2 камерный 44 мм</option>
+                            <option value="two">2 камерный 32 мм</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8">
+                            <path fill="#bfb741" d="M.012 1.136L1.177-.007 7 5.703l5.823-5.71 1.165 1.143L7 7.988z" />
+                          </svg>
+                        </div>
                       </label>
+
+                      <fieldset class="additional">
+                        <div class="additional-wrapper">
+                          <label class="" for="deliver">
+                            <input type="checkbox" name="deliver" id="deliver">
+                            <span>Доставка:</span>
+                          </label>
+                          <label class="" for="mounting">
+                            <input type="checkbox" name="mounting" id="mounting">
+                            <span>Монтаж:</span>
+                          </label>
+                        </div>
+                      </fieldset>
                     </div>
 
                   </div>
@@ -1404,7 +1427,7 @@
               <div class="container">
                 <a href="#" data-toggle="modal" data-target="#modal-three">Оставить отзыв</a>
               </div>
-              </div>
+            </div>
 
           </div>
         </div>
