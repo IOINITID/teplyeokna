@@ -246,3 +246,114 @@ window.addEventListener('scroll', function () {
     document.querySelector('.header').classList.remove('header-sticky');
   }
 });
+// scroll to right
+$('.questions-two .block-left .scroll-button-right').on('click', () => {
+  $(".questions-two .block-left .forms").animate({
+    scrollLeft: '1500'
+  }, 500);
+  $('.questions-two .block-left .scroll-button-right').hide();
+  $('.questions-two .block-left .scroll-button-left').show();
+});
+// scrol to left
+$('.questions-two .block-left .scroll-button-left').on('click', () => {
+  $(".questions-two .block-left .forms").animate({
+    scrollLeft: '-1500'
+  }, 500);
+  $('.questions-two .block-left .scroll-button-left').hide();
+  $('.questions-two .block-left .scroll-button-right').show();
+});
+// questions-five one
+$('.questions-two .block-left .quantity .quantity-item-one').on('click', () => {
+  $('.questions-two .block-left .quantity label .quantity-two').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-three').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-four').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-five').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-one').addClass('active');
+});
+// questions-five two
+$('.questions-two .block-left .quantity .quantity-item-two').on('click', () => {
+  $('.questions-two .block-left .quantity label .quantity-one').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-three').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-four').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-five').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-two').addClass('active');
+});
+// questions-five three
+$('.questions-two .block-left .quantity .quantity-item-three').on('click', () => {
+  $('.questions-two .block-left .quantity label .quantity-two').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-one').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-four').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-five').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-three').addClass('active');
+});
+// questions-five four
+$('.questions-two .block-left .quantity .quantity-item-four').on('click', () => {
+  $('.questions-two .block-left .quantity label .quantity-two').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-three').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-one').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-five').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-four').addClass('active');
+});
+// questions-five five
+$('.questions-two .block-left .quantity .quantity-item-five').on('click', () => {
+  $('.questions-two .block-left .quantity label .quantity-two').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-three').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-four').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-one').removeClass('active');
+  $('.questions-two .block-left .quantity label .quantity-five').addClass('active');
+});
+
+$('.questions-one-link-next').on('click', () => {
+  $('.questions-one').hide();
+  $('.questions-block-two').show();
+});
+
+$('.questions-two-link-next').on('click', () => {
+  $('.questions-block-two').hide();
+  $('.questions-three').show();
+});
+
+$('.questions-two-link-prev').on('click', () => {
+  $('.questions-one').show();
+  $('.questions-block-two').hide();
+});
+
+$('.questions-three-link-next').on('click', () => {
+  $('.questions-three').hide();
+  $('.questions-four').show();
+});
+
+$('.questions-three-link-prev').on('click', () => {
+  $('.questions-three').show();
+  $('.questions-four').hide();
+});
+
+$('.questions-four-link-next').on('click', () => {
+  $('.questions-four').hide();
+  $('.questions-five').show();
+});
+
+$('.questions-four-link-prev').on('click', () => {
+  $('.questions-four').show();
+  $('.questions-five').hide();
+});
+
+$('.questions-five-link-next').on('click', () => {
+  $('.questions-five').hide();
+  $('.questions-six').show();
+});
+
+$('.questions-five-link-prev').on('click', () => {
+  $('.questions-five').show();
+  $('.questions-six').hide();
+});
+
+$('.questions-six-link-next').on('click', () => {
+  $('.questions-six').hide();
+  $('.questions-seven').show();
+});
+
+$('.questions-six-link-prev').on('click', () => {
+  $('.questions-six').show();
+  $('.questions-seven').hide();
+});
