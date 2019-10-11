@@ -324,8 +324,8 @@ $('.questions-three-link-next').on('click', () => {
 });
 
 $('.questions-three-link-prev').on('click', () => {
-  $('.questions-three').show();
-  $('.questions-four').hide();
+  $('.questions-block-two').show();
+  $('.questions-three').hide();
 });
 
 $('.questions-four-link-next').on('click', () => {
@@ -334,8 +334,8 @@ $('.questions-four-link-next').on('click', () => {
 });
 
 $('.questions-four-link-prev').on('click', () => {
-  $('.questions-four').show();
-  $('.questions-five').hide();
+  $('.questions-three').show();
+  $('.questions-four').hide();
 });
 
 $('.questions-five-link-next').on('click', () => {
@@ -344,8 +344,8 @@ $('.questions-five-link-next').on('click', () => {
 });
 
 $('.questions-five-link-prev').on('click', () => {
-  $('.questions-five').show();
-  $('.questions-six').hide();
+  $('.questions-four').show();
+  $('.questions-five').hide();
 });
 
 $('.questions-six-link-next').on('click', () => {
@@ -354,6 +354,62 @@ $('.questions-six-link-next').on('click', () => {
 });
 
 $('.questions-six-link-prev').on('click', () => {
-  $('.questions-six').show();
-  $('.questions-seven').hide();
+  $('.questions-five').show();
+  $('.questions-six').hide();
+});
+
+$('.questions-two .block-left .places .places-one').on('click', () => {
+  $('.questions-two .block-left .places label .places-icon-two').hide();
+  $('.questions-two .block-left .places label .places-icon-one').show();
+});
+
+$('.questions-two .block-left .places .places-two').on('click', () => {
+  $('.questions-two .block-left .places label .places-icon-one').hide();
+  $('.questions-two .block-left .places label .places-icon-two').show();
+});
+
+$('.questions-two .block-left .models .models-one').on('click', () => {
+  $('.questions-two .block-left .models label .models-icon-two').hide();
+  $('.questions-two .block-left .models label .models-icon-three').hide();
+  $('.questions-two .block-left .models label .models-icon-one').show();
+});
+
+$('.questions-two .block-left .models .models-two').on('click', () => {
+  $('.questions-two .block-left .models label .models-icon-two').show();
+  $('.questions-two .block-left .models label .models-icon-three').hide();
+  $('.questions-two .block-left .models label .models-icon-one').hide();
+});
+
+$('.questions-two .block-left .models .models-three').on('click', () => {
+  $('.questions-two .block-left .models label .models-icon-two').hide();
+  $('.questions-two .block-left .models label .models-icon-three').show();
+  $('.questions-two .block-left .models label .models-icon-one').hide();
+});
+
+$('.questions-two .block-left .materials .materials-one').on('click', () => {
+  $('.questions-two .block-left .materials label .materials-icon-two').hide();
+  $('.questions-two .block-left .materials label .materials-icon-three').hide();
+  $('.questions-two .block-left .materials label .materials-icon-one').show();
+});
+
+$('.questions-two .block-left .materials .materials-two').on('click', () => {
+  $('.questions-two .block-left .materials label .materials-icon-two').show();
+  $('.questions-two .block-left .materials label .materials-icon-three').hide();
+  $('.questions-two .block-left .materials label .materials-icon-one').hide();
+});
+
+$('.questions-two .block-left .materials .materials-three').on('click', () => {
+  $('.questions-two .block-left .materials label .materials-icon-two').hide();
+  $('.questions-two .block-left .materials label .materials-icon-three').show();
+  $('.questions-two .block-left .materials label .materials-icon-one').hide();
+});
+
+$('.complete-button').on('click', () => {
+    $('.questions-one').show();
+    $('.questions-two').hide();
+    $('.questions-three').hide();
+    $('.questions-four').hide();
+    $('.questions-five').hide();
+    $('.questions-six').hide();
+    $('.questions-seven').hide();
 });
