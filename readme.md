@@ -2,17 +2,7 @@
 
 ------------
 
-Главная страница сайта: 🖥️ https://ioinitid.github.io/gmebel/index.html
-
-Страница наши работы: 🐱 https://ioinitid.github.io/gmebel/works.html
-
-Страница работа: 🌳 https://ioinitid.github.io/gmebel/work.html
-
-Страница цены: 🦊 https://ioinitid.github.io/gmebel/prices.html
-
-Страница о нас: 📝 https://ioinitid.github.io/gmebel/about.html
-
-Страница контакты : 🐧 https://ioinitid.github.io/gmebel/contacts.html
+Главная страница сайта: 🖥️ https://ioinitid.github.io/teplyeokna/index.html
 
 ------------
 
